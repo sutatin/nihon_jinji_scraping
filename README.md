@@ -1,24 +1,13 @@
+<h1>日本の人事部様　スクレイピングツール<h1/>
+<p>
+<a href="https://jinjibu.jp/service/list/1/?lc=1&mc=&sc=&pca=&ts=&dl=&k=" target="blank">人事労務・管理のサービス比較 - 『日本の人事部』</a>
+様で公開している人事労務・管理データの整形を行っています。<br>
+../scrapings/x/y<br>
+のURLを叩くことでxページ目からyページ目までのページを表示することが可能です。<br>
+</p>
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
-
-
-Welcome to your Rails project on Cloud9 IDE!
-
-To get started, just do the following:
-
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://nihon-jinji-scraping-sutatin.c9users.io/).
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+<p>
+このツールはcloud9を利用して作られました。<br>
+日本の人事部様のrobot.txtを確認して、法令内の利用になるよう努めておりますが、<br>
+もし問題が有りましたら即時削除いたしますのでご連絡いただけますと幸いです。<br>
+</p>
