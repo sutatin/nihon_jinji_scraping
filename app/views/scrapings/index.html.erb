@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+
+<h1>日本の人事部スクレイピング</h1>
+
+<a href="https://jinjibu.jp/service/list/1/?lc=1&mc=&sc=&pca=&ts=&dl=&k=" target="blank">人事労務・管理のサービス比較 - 『日本の人事部』</a>
+で公開している人事労務・管理データの整形を行っています。<br>
+<br>
+../scrapings/x/y<br>
+のURLを叩くことでxページ目からyページ目までのページを表示することが可能です。<br>
+
+<hr>
+<h2>
+  <%= "現在、#{@start_num}ページから#{@end_num}ページの内容を表示しています。" %>
+</h2>
+
+
+<table class="table table-striped table-bordered">
+  <thead class="thead-default">
+    <tr>
+      <th>サービス名</th>
+      <th>会社</th>
+      <th>価格</th>
+      <th>PR</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @bodys.each do |body| %>
+      <tr>
+        <td><%= body[0] %></td>
+        <td><%= body[1] %></td>
+        <td><%= body[2] %></td>
+        <td><%= body[3] %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
